@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button android:textSize="12.0sp"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:layout_gravity="center_vertical"
+            android:id="@id/btn_cpu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/btn_cpu"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/main_cpu"
+            android:drawablePadding="5.0dip"
+            android:layout_weight="1.0"
+            android:textAllCaps="true" />
+        <Button android:textSize="12.0sp"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:id="@id/btn_gpu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/btn_gpu"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/main_gpu"
+            android:drawablePadding="5.0dip"
+            android:layout_weight="1.0"
+            android:textAllCaps="true" />
+        <Button android:textSize="12.0sp"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:id="@id/btn_misc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/btn_misc"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/main_misc"
+            android:drawablePadding="5.0dip"
+            android:layout_weight="1.0"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

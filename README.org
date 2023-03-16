@@ -1,0 +1,7 @@
+#+OPTIONS: ^:{}
+#+OPTIONS: toc:nil
+#+AUTHOR: idhyt
+
+[[https://idhyt.blogspot.com/2016/01/cpugpuio.html][安卓CPU,GPU,IO,缓存工作模式查看与修改]]
+
+[[./demo.jpg]]
